@@ -2,7 +2,7 @@ name: r2s自动编译
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
     - cron:  30 02 * * Mon
 permissions:
